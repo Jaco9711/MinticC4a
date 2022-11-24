@@ -1,0 +1,38 @@
+/APIGATEWAY/Ing/
+/APIGATEWAY/venv/
+/Results_Backend/venv/
+/Results_Backend/Imagenes_endPoints/
+
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/Security_Backend//nbproject/private/
+/Security_Backend//nbbuild/
+/Security_Backend//dist/
+/Security_Backend//nbdist/
+/Security_Backend//.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+/Security_Backend/src/main/resources/static/
+### VS Code ###
+.vscode/

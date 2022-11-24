@@ -1,0 +1,239 @@
+BE:
+
+*********CANDIDATO**********************
+candidato+partido metodo: put
+127.0.0.1:7070/Aspirants/idmongodecandidato/Party/idpartidopoliticoaasociar
+
+delete candidato metodo:delete
+127.0.0.1:7070/Aspirants/idcandidato
+
+consultar candidatos metodo: get
+127.0.0.1:7070/Aspirants
+
+consultar candidato metodo: get
+127.0.0.1:7070/Aspirants/idcandidato
+
+modificar candidato metodo: put
+127.0.0.1:7070/ASpirants/idcandidato
+
+json:
+{
+	"apellido":"apellido",
+	"cedula":"1111111",
+	"nombre":"nombres",
+	"numero_resolucion":"resolucionabd"
+
+}
+
+
+añadir candidato metodo: POST
+127.0.0.1:7070/ASpirants/
+
+json:
+{
+	"cedula":"1111111",
+	"numero_resolucion":"resolucionabd",
+	"nombre":"nombres",
+	"apellido":"apellido"
+}
+
+*********MESAS**********************
+
+delete mesas metodo:delete
+127.0.0.1:7070/Tables/idmesa
+
+Consultar mesas metodo:get
+127.0.0.1:7070/Tables
+
+consultar mesa metodo:get
+127.0.0.1:7070/Tables/idmesa
+
+
+crear mesa metodo:post
+127.0.0.1:7070/Tables
+
+json:
+{
+	"numero":2,
+	"cantidad_inscritos":10
+}
+
+
+modificar mesas metodo:put
+127.0.0.1:7070/Tables/idmesa
+
+json:
+{
+	"numero":2,
+	"cantidad_inscritos":10
+}
+
+*********PARTIDOS**********************
+delete partidos metodo:delete
+127.0.0.1:7070/Parties/idpartido
+
+consultar partidos metodo:get
+127.0.0.1:7070/Parties
+
+consultar partido metodo:get
+127.0.0.1:7070/Parties/idpartido
+
+crear partidos metodo:post
+127.0.0.1:7070/Parties
+
+json:
+{
+	"nombre":"nombrepartido",
+	"lema":"lemapartido"
+}
+
+modificar partido metodo:put
+127.0.0.1:7070/Parties/idpartido
+
+json:
+{
+	"nombre":"nombrepartido",
+	"lema":"lemapartido"
+}
+
+*********RESULTADOS**********************
+delete RESULTADOS metodo:delete
+127.0.0.1:7070/Results/idresultado
+
+
+consultar resultados metodo:get
+127.0.0.1:7070/Results
+
+consultar resultado metodo:get
+127.0.0.1:7070/Results/idresultado
+
+
+añadir resultado....
+
+
+***************SPRING:*******************
+***********PERMISOS**********
+
+delete permisos metodo:delete
+127.0.0.1:8080/permisos/idpermiso
+
+consultar permisos metodo:get
+127.0.0.1:8080/permisos
+
+consultar permiso metodo:get
+127.0.0.1:8080/permisos/idpermiso
+
+crear permisos metodo:post
+127.0.0.1:8080/permisos
+
+json: 
+{
+	"url":"/url/dondeapunta/",
+	"metodo":"metodousado"
+}
+
+modificar permisos metodo:put
+127.0.0.1:8080/permisos/idpermiso
+
+json: 
+{
+	"url":"/url/dondeapunta/",
+	"metodo":"metodousado"
+}
+
+***PERMISOS-ROLES****
+
+consultar permisos-roles metodo:get
+127.0.0.1:8080/permisos-roles
+
+consultar permiso-rol metodo:get
+127.0.0.1:8080/permisos-roles/idrelacionpermisorol
+
+crear permisos-roles metodo:post
+127.0.0.1:8080/permisos-roles/rol/idrol/permiso/idpermiso
+
+***Validr permisos****
+
+validar permiso-rol metodo:get
+127.0.0.1:8080/permisos-roles/validar-permiso/rol/idrol
+
+json:
+{
+	"url":"urlvalidar",
+	"metodo":"POST"
+}
+
+
+**************ROLES************
+crear roles metodo:post
+127.0.0.1:8080/roles
+
+json:
+{
+	"nombre":"nombrerol",
+	"descripcion":"descripciondelrol"
+}
+
+consultar roles metodo:get
+127.0.0.1:8080/roles
+
+eliminar roles metodo:get
+127.0.0.1:8080/roles/idrol
+
+consultar rol metodo:get
+127.0.0.1:8080/roles/idrol
+
+modificar roles metodo:post
+127.0.0.1:8080/roles/idrol
+
+json:
+{
+	"nombre":"nombrerol",
+	"descripcion":"descripciondelrol"
+}
+
+**********USUARIOS***********
+crear usuarios metodo:post
+127.0.0.1:8080/usuarios
+
+json:
+{
+	"seudonimo":"nombreusuario",
+	"correo":"Correousuario",
+	"contrasena":"12345"
+}
+
+
+modificar usuarios metodo:put
+127.0.0.1:8080/usuarios/idusuario
+
+json:
+{
+	"seudonimo":"nombreusuario",
+	"correo":"Correousuario",
+	"contrasena":"12345"
+}
+
+consultar usuarios metodo:get
+127.0.0.1:8080/usuarios
+
+
+consultar usuario metodo:post
+127.0.0.1:8080/usuarios/idusuario
+
+añadir rol a usuario metodo: post
+127.0.0.1:8080/usuarios/idusuario/rol/idrol
+
+validar usuario metodo: post
+127.0.0.1:8080/usuarios/valdiar/
+
+json:
+{
+	"seudonimo":"nombreusuario",
+	"correo":"Correousuario",
+	"contrasena":"12345"
+}
+
+
+
+GATEWAY:
