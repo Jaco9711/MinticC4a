@@ -1,7 +1,7 @@
 /APIGATEWAY/Ing/
 /APIGATEWAY/venv/
-/Results_Backend/venv/
-/Results_Backend/Imagenes_endPoints/
+/BackEnd_Flask/venv/
+/BackEnd_Flask/Imagenes_endPoints/
 
 HELP.md
 target/
@@ -25,14 +25,14 @@ target/
 *.ipr
 
 ### NetBeans ###
-/Security_Backend//nbproject/private/
-/Security_Backend//nbbuild/
-/Security_Backend//dist/
-/Security_Backend//nbdist/
-/Security_Backend//.nb-gradle/
+/Spring_Security/nbproject/private/
+/Spring_Security/nbbuild/
+/Spring_Security/dist/
+/Spring_Security/nbdist/
+/Spring_Security/.nb-gradle/
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/
-/Security_Backend/src/main/resources/static/
+/Spring_Security/src/main/resources/static/
 ### VS Code ###
 .vscode/
