@@ -22,6 +22,7 @@ json:
 	"cedula":"1111111",
 	"nombre":"nombres",
 	"numero_resolucion":"resolucionabd"
+
 }
 
 
@@ -68,7 +69,6 @@ json:
 }
 
 *********PARTIDOS**********************
-
 delete partidos metodo:delete
 127.0.0.1:5000/Parties/idpartido
 
@@ -97,7 +97,6 @@ json:
 }
 
 *********RESULTADOS**********************
-
 delete RESULTADOS metodo:delete
 127.0.0.1:5000/Results/idresultado
 
@@ -111,10 +110,8 @@ consultar resultado metodo:get
 
 añadir resultado....
 
-*****************************************
-***************SPRING:*******************
-*****************************************
 
+***************SPRING:*******************
 ***********PERMISOS**********
 
 delete permisos metodo:delete
@@ -194,7 +191,6 @@ json:
 	"nombre":"nombrerol",
 	"descripcion":"descripciondelrol"
 }
-
 
 **********USUARIOS***********
 crear usuarios metodo:post
