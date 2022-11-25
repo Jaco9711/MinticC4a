@@ -2,19 +2,19 @@ BE:
 
 *********CANDIDATO**********************
 candidato+partido metodo: put
-127.0.0.1:7070/Aspirants/idmongodecandidato/Party/idpartidopoliticoaasociar
+127.0.0.1:5000/Aspirants/idmongodecandidato/Party/idpartidopoliticoaasociar
 
 delete candidato metodo:delete
-127.0.0.1:7070/Aspirants/idcandidato
+127.0.0.1:5000/Aspirants/idcandidato
 
 consultar candidatos metodo: get
-127.0.0.1:7070/Aspirants
+127.0.0.1:5000/Aspirants
 
 consultar candidato metodo: get
-127.0.0.1:7070/Aspirants/idcandidato
+127.0.0.1:5000/Aspirants/idcandidato
 
 modificar candidato metodo: put
-127.0.0.1:7070/ASpirants/idcandidato
+127.0.0.1:5000/ASpirants/idcandidato
 
 json:
 {
@@ -27,7 +27,7 @@ json:
 
 
 añadir candidato metodo: POST
-127.0.0.1:7070/ASpirants/
+127.0.0.1:5000/ASpirants/
 
 json:
 {
@@ -40,17 +40,17 @@ json:
 *********MESAS**********************
 
 delete mesas metodo:delete
-127.0.0.1:7070/Tables/idmesa
+127.0.0.1:5000/Tables/idmesa
 
 Consultar mesas metodo:get
-127.0.0.1:7070/Tables
+127.0.0.1:5000/Tables
 
 consultar mesa metodo:get
-127.0.0.1:7070/Tables/idmesa
+127.0.0.1:5000/Tables/idmesa
 
 
 crear mesa metodo:post
-127.0.0.1:7070/Tables
+127.0.0.1:5000/Tables
 
 json:
 {
@@ -60,7 +60,7 @@ json:
 
 
 modificar mesas metodo:put
-127.0.0.1:7070/Tables/idmesa
+127.0.0.1:5000/Tables/idmesa
 
 json:
 {
@@ -70,16 +70,16 @@ json:
 
 *********PARTIDOS**********************
 delete partidos metodo:delete
-127.0.0.1:7070/Parties/idpartido
+127.0.0.1:5000/Parties/idpartido
 
 consultar partidos metodo:get
-127.0.0.1:7070/Parties
+127.0.0.1:5000/Parties
 
 consultar partido metodo:get
-127.0.0.1:7070/Parties/idpartido
+127.0.0.1:5000/Parties/idpartido
 
 crear partidos metodo:post
-127.0.0.1:7070/Parties
+127.0.0.1:5000/Parties
 
 json:
 {
@@ -88,7 +88,7 @@ json:
 }
 
 modificar partido metodo:put
-127.0.0.1:7070/Parties/idpartido
+127.0.0.1:5000/Parties/idpartido
 
 json:
 {
@@ -98,14 +98,14 @@ json:
 
 *********RESULTADOS**********************
 delete RESULTADOS metodo:delete
-127.0.0.1:7070/Results/idresultado
+127.0.0.1:5000/Results/idresultado
 
 
 consultar resultados metodo:get
-127.0.0.1:7070/Results
+127.0.0.1:5000/Results
 
 consultar resultado metodo:get
-127.0.0.1:7070/Results/idresultado
+127.0.0.1:5000/Results/idresultado
 
 
 añadir resultado....
