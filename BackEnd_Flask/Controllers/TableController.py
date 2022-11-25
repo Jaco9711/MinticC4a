@@ -20,7 +20,7 @@ class TableController():
     def update(self, id, infoTable):
         TableCurrent = Table(self.RepositoryTable.findById(id))
         TableCurrent.numero = infoTable["numero"]
-        TableCurrent.cantidad_inscribed = infoTable["cantidad_inscribed"]
+        TableCurrent.cantidad_inscritos = infoTable["cantidad_inscritos"]
         return self.RepositoryTable.save(TableCurrent)
     
     def delete(self, id):
