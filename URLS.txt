@@ -14,7 +14,7 @@ consultar candidato metodo: get
 127.0.0.1:5000/Aspirants/idcandidato
 
 modificar candidato metodo: put
-127.0.0.1:5000/ASpirants/idcandidato
+127.0.0.1:5000/Aspirants/idcandidato
 
 json:
 {
@@ -22,12 +22,11 @@ json:
 	"cedula":"1111111",
 	"nombre":"nombres",
 	"numero_resolucion":"resolucionabd"
-
 }
 
 
 añadir candidato metodo: POST
-127.0.0.1:5000/ASpirants/
+127.0.0.1:5000/Aspirants/
 
 json:
 {
@@ -69,6 +68,7 @@ json:
 }
 
 *********PARTIDOS**********************
+
 delete partidos metodo:delete
 127.0.0.1:5000/Parties/idpartido
 
@@ -97,6 +97,7 @@ json:
 }
 
 *********RESULTADOS**********************
+
 delete RESULTADOS metodo:delete
 127.0.0.1:5000/Results/idresultado
 
@@ -110,8 +111,10 @@ consultar resultado metodo:get
 
 añadir resultado....
 
-
+*****************************************
 ***************SPRING:*******************
+*****************************************
+
 ***********PERMISOS**********
 
 delete permisos metodo:delete
@@ -191,6 +194,7 @@ json:
 	"nombre":"nombrerol",
 	"descripcion":"descripciondelrol"
 }
+
 
 **********USUARIOS***********
 crear usuarios metodo:post
